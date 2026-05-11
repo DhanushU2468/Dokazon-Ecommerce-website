@@ -1,15 +1,12 @@
 import React from 'react'
-import {Routes,Route} from 'react-router-dom'
+
 const Landingpage = () => {
   return (
-    <>
-    <div id='dokazon'>
-        <Routes>
-            <Route element={<Landingpage/>} path='/'/>
-        </Routes>
+    <div>
+      <h1>Landing Page</h1>
     </div>
-    </>
   )
 }
 
 export default Landingpage
+
